@@ -6,7 +6,7 @@
 /*   By: jmunoz <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/14 15:49:49 by jmunoz            #+#    #+#             */
-/*   Updated: 2016/04/14 16:13:30 by jmunoz           ###   ########.fr       */
+/*   Updated: 2016/11/28 11:01:56 by jmunoz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_last_separators(char *str, char c)
 {
-	int i;
-	char *ret;
+	int		i;
+	char	*ret;
 
 	i = 0;
 	if (!str || !*str)

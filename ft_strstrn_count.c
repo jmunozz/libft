@@ -6,7 +6,7 @@
 /*   By: jmunoz <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/09 20:04:37 by jmunoz            #+#    #+#             */
-/*   Updated: 2016/05/09 20:06:01 by jmunoz           ###   ########.fr       */
+/*   Updated: 2016/11/28 10:56:34 by jmunoz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int		ft_strstrn_count(char *big, char *little, int size)
 		if (big[i] == little[j])
 		{
 			while ((big[i] == little[j]) && little[j] && i < size)
-			{	
+			{
 				i++;
 				j++;
 			}
